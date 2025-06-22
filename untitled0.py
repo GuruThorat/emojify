@@ -56,7 +56,7 @@ if st.button("🔍 Emojify!"):
 !pip install streamlit transformers torch pyngrok
 
 import os
-os.environ["NGROK_AUTHTOKEN"] = "2yr7RINFACGLmd4OGQxgvRvKUFq_74RjH5X35bpLc4WCMoXVw"
+os.environ["NGROK_AUTHTOKEN"] = "your-auth-token"
 !ngrok config add-authtoken $NGROK_AUTHTOKEN
 
 !pip install streamlit transformers torch pyngrok --quiet
